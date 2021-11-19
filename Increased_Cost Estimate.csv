@@ -1,0 +1,18 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost Estimate,US East (Ohio),Web App Instances,Amazon EC2,1741.49,169.12,3770.93,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year Partial Upfront), Storage amount (30 GB), Instance type (t3.large)"
+Increased_Cost Estimate,US East (Ohio),Application Instances,Amazon EC2,1787.04,172.92,3862.08,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year Partial Upfront), Storage amount (30 GB), Instance type (c5.large)"
+Increased_Cost Estimate,US East (Ohio),Master RDS,Amazon RDS for PostgreSQL,0,5302.111,63625.33,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m4.16xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Additional backup storage (100 GB)"
+Increased_Cost Estimate,US East (Ohio),Replica RDS,Amazon RDS for PostgreSQL,0,5292.611,63511.33,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m4.16xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront)"
+Increased_Cost Estimate,US East (Ohio),,S3 Standard,0,115,1380.00,USD,S3 Standard storage (5000 GB per month)
+Increased_Cost Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,
+Increased_Cost Estimate,US East (Ohio),Load Balancers,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+Increased_Cost Estimate,US East (Ohio),Load Balancers,Network Load Balancer,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average number of new UDP Flows ( per second), Average UDP Flow duration ( seconds), Average number of new TCP connections (10 per second), Average TCP connection duration (30 seconds)"
+Increased_Cost Estimate,US East (Ohio),Nat Gateways,Amazon Virtual Private Cloud (VPC),0,4007.7,48092.40,USD,Number of NAT Gateways (2)
+Increased_Cost Estimate,US East (Ohio),CloudFront Service,Amazon CloudFront,0,0.96,11.52,USD,"Number of requests (HTTPS) (5000 per month), Data transfer out to internet (10 GB per month), Data transfer out to origin (5 GB per month)"
+Increased_Cost Estimate,US East (Ohio),,Amazon Route 53,0,755.5,9066.00,USD,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (8)"
+Increased_Cost Estimate,US East (Ohio),,AWS Web Application Firewall (WAF),0,1356,16272.00,USD,"Number of Web Access Control Lists (Web ACLs) utilized (10 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (10 per month), Number of Rules inside each Rule Group (10 per month), Number of Managed Rule Groups per Web ACL (10 per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
